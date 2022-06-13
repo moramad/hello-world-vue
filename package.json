@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "mocram",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,14 @@
   },
   "dependencies": {
     "@adminkit/core": "^3.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "feather-icons": "^4.29.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },

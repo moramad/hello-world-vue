@@ -68,11 +68,11 @@
             data-bs-toggle="dropdown"
           >
             <img
-              src="assets/img/avatars/avatar.jpg"
-              class="avatar img-fluid rounded me-1"
-              alt="Charles Hall"
+              :src="'assets/img/avatars/' + username + '.jpg'"
+              class="avatar img-fluid rounded-circle me-1"
+              :alt="username"
             />
-            <span class="text-dark">Charles Hall</span>
+            <span class="text-dark"> {{ username }} </span>
           </a>
           <div class="dropdown-menu dropdown-menu-end">
             <a class="dropdown-item" href="pages-profile.html"
@@ -108,6 +108,7 @@ export default {
   data() {
     return {
       notifications: [],
+      username: "mocram",
     };
   },
   methods: {
