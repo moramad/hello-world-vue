@@ -3,6 +3,7 @@
     <nav id="sidebar" class="sidebar js-sidebar">
       <div class="sidebar-content js-simplebar">
         <a class="sidebar-brand" href="/">
+          <span><img src="/assets/images/mohamad.png" class="pe-2 w-25"></span>
           <span class="align-middle">{{ title }}</span>
         </a>
 
@@ -55,4 +56,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+</style>
+
