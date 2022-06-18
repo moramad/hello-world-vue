@@ -3,7 +3,7 @@
     <nav id="sidebar" class="sidebar js-sidebar">
       <div class="sidebar-content js-simplebar">
         <a class="sidebar-brand" href="/">
-          <span><img src="/assets/images/mohamad.png" class="pe-2 w-25"></span>
+          <span><img src="/assets/images/mohamad.png" class="pe-2 w-25"></spanno>
           <span class="align-middle">{{ title }}</span>
         </a>
 
