@@ -180,14 +180,14 @@
     {
       "id": "1",
       "name": "Suhu Ruang Tamu",
-      "icon": "car",
+      "icon": "temperature-full",
       "value": "27",
       "trend": "+2% Since last week"
     },
     {
       "id": "2",
       "name": "Status AC Kamar",
-      "icon": "ac",
+      "icon": "plug",
       "value": "On",
       "trend": "2h Powerred On "
     },
@@ -207,14 +207,14 @@
     },
     {
       "id": "5",
-      "name": "Status TV 2",
+      "name": "Status TV 3",
       "icon": "tv",
       "value": "On",
       "trend": "1h Powerred On"
     },
     {
       "id": "6",
-      "name": "Status TV 2",
+      "name": "Status TV 4",
       "icon": "tv",
       "value": "On",
       "trend": "1h Powerred On"
