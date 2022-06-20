@@ -200,7 +200,7 @@
     },
     mounted() {
       axios
-        .get("http://localhost:3000/products")
+        .get(process.env.VUE_APP_ROOT_API + "/products")
         .then((response) => this.setProducts(response.data))
         .catch((error) => console.log(error));
     },

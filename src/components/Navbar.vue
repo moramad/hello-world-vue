@@ -118,7 +118,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://localhost:3000/notifications")
+      .get(process.env.VUE_APP_ROOT_API + "/notifications")
       .then((response) => this.setNotifications(response.data))
       .catch((error) => console.log(error));
   },

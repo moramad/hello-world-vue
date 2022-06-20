@@ -78,7 +78,7 @@
     },
     mounted() {
       axios
-        .get("http://localhost:3000/devices")
+        .get(process.env.VUE_APP_ROOT_API + "/devices")
         .then((response) => this.setDevices(response.data))
         .catch((error) => console.log(error));
     },

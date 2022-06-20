@@ -1,0 +1,223 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telur",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telur",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Bakso",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "bakso.jpg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "nama": "rama",
+      "noMeja": "1",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "ok",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "keterangan": "ok",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "notifications": [],
+  "menus_research": [
+    {
+      "groupID": 1,
+      "groupDesc": "Main Menu",
+      "menu": [
+        {
+          "menuID": 1,
+          "menuDesc": "Home",
+          "href": "/"
+        },
+        {
+          "menuID": 2,
+          "menuDesc": "Equipment",
+          "href": "",
+          "submenu": [
+            {
+              "submenuID": 1,
+              "submenuDesc": "Master Equipment",
+              "href": "/master-equip"
+            },
+            {
+              "submenuID": 2,
+              "submenuDesc": "Setting Equipment",
+              "href": "/setting-equip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "menus": [
+    {
+      "menuID": "dashboard",
+      "menuDesc": "Dashboard",
+      "href": "/",
+      "icon": "window-restore"
+    },
+    {
+      "menuID": "master-device",
+      "menuDesc": "Master Devices",
+      "href": "/devices",
+      "icon": "server"
+    },
+    {
+      "menuID": "settings",
+      "menuDesc": "Settings",
+      "href": "/settings",
+      "icon": "gears"
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "name": "raspberry pi",
+      "category": "linux",
+      "status": "off",
+      "regdate": "2022-06-12"
+    },
+    {
+      "id": "2",
+      "name": "mocram-pc",
+      "category": "windows",
+      "status": "on",
+      "regdate": "2022-06-12"
+    },
+    {
+      "id": "3",
+      "name": "device3",
+      "category": "windows",
+      "status": "on",
+      "regdate": "2022-06-12"
+    },
+    {
+      "id": "4",
+      "name": "device4",
+      "category": "windows",
+      "status": "on",
+      "regdate": "2022-06-12"
+    }
+  ],
+  "dashboard-items": [
+    {
+      "id": "1",
+      "name": "Suhu Ruang Tamu",
+      "icon": "car",
+      "value": "27",
+      "trend": "+2% Since last week"
+    },
+    {
+      "id": "2",
+      "name": "Status AC Kamar",
+      "icon": "ac",
+      "value": "On",
+      "trend": "2h Powerred On "
+    },
+    {
+      "id": "3",
+      "name": "Status TV",
+      "icon": "tv",
+      "value": "On",
+      "trend": "1h Powerred On"
+    },
+    {
+      "id": "4",
+      "name": "Status TV 2",
+      "icon": "tv",
+      "value": "On",
+      "trend": "1h Powerred On"
+    },
+    {
+      "id": "5",
+      "name": "Status TV 2",
+      "icon": "tv",
+      "value": "On",
+      "trend": "1h Powerred On"
+    },
+    {
+      "id": "6",
+      "name": "Status TV 2",
+      "icon": "tv",
+      "value": "On",
+      "trend": "1h Powerred On"
+    }
+  ]
+}
