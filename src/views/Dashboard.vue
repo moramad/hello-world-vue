@@ -48,7 +48,7 @@
   import Footer_Comp from "@/components/Footer.vue";
 
   export default {
-    name: "Home_View",
+    name: "Dashboard_View",
     components: {
       Sidebar_Comp,
       Footer_Comp,

@@ -2,14 +2,14 @@ import {
   createRouter,
   createWebHistory
 } from 'vue-router'
-import Home_View from '../views/Home.vue'
+import Dashboard_View from '../views/Dashboard.vue'
 import MasterDevices_View from '../views/MasterDevices.vue'
 import Setting_View from '../views/Settings.vue'
 
 const routes = [{
   path: '/',
-  name: 'Home_View',
-  component: Home_View
+  name: 'Dashboard_View',
+  component: Dashboard_View
 },
 {
   path: '/devices',
