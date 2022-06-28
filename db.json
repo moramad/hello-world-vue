@@ -218,6 +218,13 @@
       "icon": "tv",
       "value": "On",
       "trend": "1h Powerred On"
+    },
+    {
+      "id": "11",
+      "name": "asdasd",
+      "icon": "car",
+      "value": "11",
+      "trend": "test"
     }
   ]
 }

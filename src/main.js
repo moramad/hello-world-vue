@@ -7,10 +7,13 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import App from './App.vue';
 import router from './router';
+import VueToast from 'vue-toast-notification';
+import 'vue-toast-notification/dist/theme-default.css';
 
 library.add(fas);
 
 createApp(App)
     .component('fa', FontAwesomeIcon)
     .use(router)
+    .use(VueToast)
     .mount('#app')
