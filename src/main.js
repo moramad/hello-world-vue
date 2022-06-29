@@ -5,6 +5,8 @@ import { createApp } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import VueToast from 'vue-toast-notification';
+import 'vue-toast-notification/dist/theme-default.css';
 import App from './App.vue';
 import router from './router';
 
@@ -13,4 +15,5 @@ library.add(fas);
 createApp(App)
     .component('fa', FontAwesomeIcon)
     .use(router)
+    .use(VueToast)
     .mount('#app')
