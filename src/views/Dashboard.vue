@@ -36,9 +36,6 @@
               </div>
             </div>
           </div>
-          <button type="submit" class="btn btn-success" @click="pemesanan">
-            <fa icon="car" /> Add New
-          </button>
         </div>
       </main>
       <Footer_Comp />
@@ -63,32 +60,11 @@ export default {
   data() {
     return {
       dashboard_items: [],
-      pesan: {},
     };
   },
   methods: {
     setProducts(data) {
       this.dashboard_items = data;
-    },
-    pemesanan() {
-      // this.pesan.id = "10";
-      // this.pesan.name = "test";
-      // this.pesan.icon = "icon";
-      // this.pesan.value = "30";
-      // this.pesan.trend = "ok";
-
-      axios
-        .post(process.env.VUE_APP_ROOT_API + "/dashboard-items", this.pesan)
-        .then(() => {
-          this.$router.push({ path: "/" });
-          this.$toast.success("Sukses Nambah Data", {
-            type: "success",
-            position: "top-right",
-            duration: 3000,
-            dismissible: true,
-          });
-        })
-        .catch((err) => console.log(err));
     },
   },
   mounted() {
