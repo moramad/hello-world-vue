@@ -19,7 +19,11 @@
           </div>
 
           <div class="row">
-            <div class="col-md-3" v-for="item in dashboard_items" :key="item.id">
+            <div
+              class="col-md-3"
+              v-for="item in dashboard_items"
+              :key="item.id"
+            >
               <div class="card">
                 <div class="card-body">
                   <div class="row">
