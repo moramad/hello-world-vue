@@ -7,7 +7,16 @@
 
       <main class="content">
         <div class="container-fluid p-0">
-          <h1 class="h3 mb-3"><strong>Smart</strong> Dashboard</h1>
+          <div class="row">
+            <div class="col-md-6 text-start">
+              <h1 class="h3 mb-3"><strong>Smart</strong> Dashboard</h1>
+            </div>
+            <div class="col-md-6 text-end">
+              <router-link to="/settings" class="btn btn-success float-right">
+                <fa icon="plus" /> Add New
+              </router-link>
+            </div>
+          </div>
 
           <div class="row">
             <div class="col-md-3" v-for="item in dashboard_items" :key="item.id">
